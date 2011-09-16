@@ -1,4 +1,8 @@
 function renameedk(name1,name2)
+% renameedk(name1,name2)
+% Renames an EDK project in the current directory.
+% name1 = existing project name
+% name2 = new project name
 
 % mhs file
 file = dir('*.mhs');
